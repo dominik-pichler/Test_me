@@ -13,3 +13,7 @@ hypothesis = "^6.103.5"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[mutmut]
+paths_to_mutate = ["mutant_based_testing/"]
