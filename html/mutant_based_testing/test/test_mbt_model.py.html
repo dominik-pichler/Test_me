@@ -1,0 +1,11 @@
+<html><body><h1>mutant_based_testing/test/test_mbt_model.py</h1>Killed 36 out of 37 mutants<h2>Survived</h2>Survived mutation testing. These mutants show holes in your test suite.<h3>Mutant 36</h3><pre>--- mutant_based_testing/test/test_mbt_model.py
++++ mutant_based_testing/test/test_mbt_model.py
+@@ -16,6 +16,6 @@
+ def test_divide():
+     assert divide(6, 3) == 2
+     with pytest.raises(ValueError):
+-        divide(1, 0)
++        divide(2, 0)
+ 
+ 
+</pre></body></html>
